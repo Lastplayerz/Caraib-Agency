@@ -1,0 +1,52 @@
+.logo {
+    
+        
+        background-color: #33F6FF;
+}
+.background{
+    background-color: #ffffff;
+}
+#navbardy{
+    /* Couleur de fond de la barre de navigation */
+    background-color: #33F6FF;
+    border-color: black;
+   }
+   body { 
+    margin: 0;
+    font-family: Edelsans, Avenir, sans-serif;
+  }
+  section { 
+    height: 100vh; 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    flex-direction: column;
+    padding: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 4vw; 
+  }
+  section:first-of-type { 
+    text-transform: uppercase;
+    font-size: 7vw;
+  }
+  section:first-of-type, section.pop { 
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0,0,0,0.4); 
+  }
+  section:nth-of-type(even) { 
+    background: #fff;
+  }
+  section:nth-of-type(1) { 
+    background-image: url(460161_960_540.jpg); 
+  }
+  section:nth-of-type(3) { 
+    background-image: url(CITY-HAV-1.jpg); 
+  }
+  section:nth-of-type(5) { 
+    background-image: url(costa-rica-le-pays-ou-la-vie-est-plus-verte.jpg); }
+  section:nth-of-type(7) { 
+        background-image: url(12170_16041311240041483058.jpg);
